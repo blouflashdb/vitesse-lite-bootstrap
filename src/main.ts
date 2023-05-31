@@ -1,13 +1,14 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
+
+// eslint-disable-next-line unused-imports/no-unused-imports
+import * as bootstrap from 'bootstrap'
 import App from './App.vue'
 import Home from './pages/index.vue'
 import Hi from './pages/hi/index.vue'
 import NotFound from './pages/notFound.vue'
 
-import '@unocss/reset/tailwind.css'
-import './styles/main.css'
-import 'uno.css'
+import '~/scss/styles.scss'
 
 const routes = [
   { path: '/', component: Home },
