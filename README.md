@@ -1,5 +1,5 @@
 <h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
+<b>Lightweight modified version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
 </h5>
 
 <br>
@@ -11,6 +11,8 @@
 - 📦 [Components auto importing](./src/components)
 
 - 🎨 [Bootstrap 5.3](https://getbootstrap.com/) - Powerful, extensible, and feature-packed frontend toolkit.
+
+- 😃 [FontAwesome SVG + JS](https://fontawesome.com/) - Font Awesome is the Internet's icon library and toolkit.
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
@@ -27,6 +29,10 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 ### UI Frameworks
 
 - [bootstrap](https://getbootstrap.com/) - Powerful, extensible, and feature-packed frontend toolkit.
+
+### Icons
+
+- [FontAwesome](https://fontawesome.com/) - Font Awesome is the Internet's icon library and toolkit.
 
 ### Plugins
 

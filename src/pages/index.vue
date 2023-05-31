@@ -15,11 +15,12 @@ function go() {
 <template>
   <div>
     <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
+      <a rel="noreferrer" href="https://github.com/blouflashdb/vitesse-lite-bootstrap" target="_blank">
         Vitesse Lite Bootstrap
       </a>
     </p>
     <p>
+      <font-awesome-icon :icon="['fas', 'user-secret']" />
       <em>Opinionated Vite Starter Template</em>
     </p>
     <TheInput
