@@ -1,8 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
-// eslint-disable-next-line unused-imports/no-unused-imports
-import * as bootstrap from 'bootstrap'
+import 'bootstrap'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'

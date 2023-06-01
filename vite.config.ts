@@ -43,8 +43,24 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-components
     Components({
       dts: true,
+      types: [{
+        from: '@fortawesome/vue-fontawesome',
+        names: ['FontAwesomeIcon'],
+      },
+      {
+        from: 'vue-router',
+        names: ['RouterLink', 'RouterView'],
+      }],
     }),
   ],
+
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "./src/scss/variables";',
+      },
+    },
+  },
 
   // https://github.com/vitest-dev/vitest
   test: {

@@ -20,7 +20,7 @@ function go() {
       </a>
     </p>
     <p>
-      <font-awesome-icon :icon="['fas', 'user-secret']" />
+      <FontAwesomeIcon :icon="['fas', 'user-secret']" />
       <em>Opinionated Vite Starter Template</em>
     </p>
     <TheInput
